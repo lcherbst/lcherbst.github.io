@@ -145,9 +145,13 @@ h2 ~ p {
 }
 
 /* GALLERY STYLES */
+.current {
+  cursor: default;
+}
 .gallery-thumbs {
   height: 90vh;
   overflow: scroll;
+  cursor: default;
 }
 .gallery-thumbs > div {
   cursor: pointer;
